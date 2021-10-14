@@ -1,10 +1,11 @@
 import subprocess
 import time
 
+author = "Jencent Dizon"
+link = "https://github.com/I-am-Programmer-101"
+print("Author:", author, "\t\tLink:",link)
+
 def Replace_Text():
-    author = "author: Jencent Dizon"
-    link = "link: https://github.com/breaker-crypto"
-    print(author + "\n" + link + "\n")
     print("example : C:/Users/Admin/Documents/test.txt")
 
     filename = input("Enter a filename.txt: ")
